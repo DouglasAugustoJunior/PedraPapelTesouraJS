@@ -1,0 +1,103 @@
+*{
+    font-family: Helvetica; /* fonte do site */
+    font-weight: 400;
+}
+
+body{
+    background-color: #b2bec3;
+}
+
+#titulo{
+    color: #fff;
+    text-align: center;
+}
+
+#placar{
+    display: flex; /* deixa todo mundo na horizontal */
+    align-items: center; /* alinha todos os itens no centro */
+    justify-content: center; /* Alinha no centro da tela */
+}
+
+#versus{
+    width: 70px; /* largura para separar jogadores */
+    font-size: 40px; /* tamanho da fonte */
+    text-align: center;
+}
+
+#jogador, #computador{
+    position: relative;
+    flex-grow: 1; /* divide a tela para ambos */
+    border-radius: 5px; /* borda arredondada */
+    width: 200px;
+    padding: 20px;
+    color: #fff; /* FOnte branca */
+}
+
+#jogador{
+    background-color: crimson;
+}
+
+#computador{
+    background-color: dodgerblue;
+}
+
+ul#jogador-escolha, ul#computador-escolha{
+    list-style: none; /* tira marcadores da lista */
+    margin: 0;
+    padding: 0;
+    text-align: center;/* alinha opções no centro da div */
+}
+
+ul#jogador-escolha li, ul#computador-escolha li{
+    display: inline; /* coloca itens na mesma linha */
+}
+
+ul#jogador-escolha li a, ul#computador-escolha li a{
+    opacity: .2; /* 20% de opacidade */
+}
+
+ul#jogador-escolha li a:hover, ul#jogador-escolha li a.selecionado, ul#computador-escolha li a.selecionado{ /* quando passar o mouse */
+    opacity: 1; /* 100% de opacidade */
+}
+
+ul#jogador-escolha li a img, ul#computador-escolha li a img{
+    max-width: 80px;
+}
+
+#jogador-nome, #computador-nome{
+    padding: 0;
+    margin: 0;
+}
+
+#jogador-nome{
+    text-align: left;
+}
+
+#computador-nome{
+    text-align: right;
+}
+
+#jogador-pontos, #computador-pontos{
+    position: absolute;
+    top: 8px; /* sobe os pontos */
+    font-size: 32px; /* iguala tamanho da fonte com o nome */
+}
+
+#jogador-pontos{
+    right: 20px; /* alinha pontos a direita como no computador */
+}
+
+#mensagens{
+    background-color: aquamarine;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 40px 0px; /* distância somente da parte superior */
+    font-size: 32px;
+}
+
+footer{
+    position: absolute;
+    text-align: right;
+    font-weight: 800;
+    bottom: 0px;
+}
