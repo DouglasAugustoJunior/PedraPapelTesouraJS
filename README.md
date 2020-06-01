@@ -5,9 +5,9 @@
  
 ![LINGUAGEM FINALIDADE](https://img.shields.io/badge/JavaScript-game-orange.svg)
  
-O **Pedra Papel Tesoura** é um projeto simples que utilizei para aprimorar meus conhecimentos em JS.
+O **Pedra Papel Tesoura** é um projeto simples que utilizei para aprimorar meus conhecimentos em JS. **[Projeto Online](https://douglasaugustojunior.github.io/PedraPapelTesouraJS/)**
 
-![Imagem](https://github.com/DouglasAugustoJunior/PedraPapelTesouraJS/blob/master/_images/game.PNG?raw=true)
+![Imagem](https://github.com/DouglasAugustoJunior/PedraPapelTesouraJS/blob/master/images/game.PNG?raw=true)
 
 Desenvolvido em HTML5,CSS3 e JS, ele traz diversas situações interessantes para utilizar diversos recursos.
  
